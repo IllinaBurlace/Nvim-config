@@ -11,10 +11,10 @@ return {
 					return vim.api.nvim_win_get_config(win).relative == ""
 				end,
 			},
-			"Trouble",
 			{
-				ft = "diagnostics",
+				ft = "trouble",
 				name = "Diagnostics",
+				size = { height = 0.3 },
 			},
 		},
 		left = {
