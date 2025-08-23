@@ -12,7 +12,3 @@ Uses Edgy for window management
 Enables LSPs for C# and lua  
 
 Uses rose-pine theme  
-
-## TODO
-
-- Set up DAP for use with godot
