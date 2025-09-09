@@ -11,7 +11,7 @@ Uses Edgy for window management
 
 Enables LSPs for C# and lua  
 
-Uses rose-pine theme  
+Uses fluoromachine theme  
 
 ## TODO
 
