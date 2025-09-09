@@ -14,3 +14,12 @@ dap.configurations.cs = {
 		project = "${workspaceFolder}",
 	}
 }
+
+dap.configurations.gdscrips = {
+	{
+		type = "godot",
+		request = "launch",
+		name = "Launch Scene",
+		project = "${workspaceFolder}",
+	}
+}
