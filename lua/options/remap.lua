@@ -19,3 +19,10 @@ vim.keymap.set("n", "<C-S-N>", function() harpoon:list():next() end)
 
 local toggleterm = require("toggleterm")
 vim.keymap.set("n", "<leader>TT", "<cmd>ToggleTerm<cr>")
+
+local dap = require("dap")
+vim.keymap.set("n", "<F5>", function() dap.continue() end)
+vim.keymap.set("n", "<F10>", function() dap.step_over() end)
+vim.keymap.set("n", "<F11>", function() dap.step_into() end)
+vim.keymap.set("n", "<F12>", function() dap.step_out() end)
+vim.keymap.set("n", "<leader>b", function() dap.toggle_breakpoint() end)

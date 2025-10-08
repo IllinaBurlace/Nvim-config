@@ -15,7 +15,7 @@ dap.configurations.cs = {
 	}
 }
 
-dap.configurations.gdscrips = {
+dap.configurations.gdscript = {
 	{
 		type = "godot",
 		request = "launch",
